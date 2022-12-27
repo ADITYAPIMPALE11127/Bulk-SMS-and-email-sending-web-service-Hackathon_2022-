@@ -1,0 +1,29 @@
+<%- include("partials/header"); -%>
+  
+  
+<form method="POST" action="/">
+  <div class="login">
+
+    <h1 class="login-header">Login to BulkSender</h1>
+    <div class="login-label-input">
+      <p>Enter Username:</p>
+      <input name="username" type="text" class="login-input"></input>
+    </div>
+  
+    <div class="login-label-input">
+      <p>Enter Password:</p>
+      <input name="password" type="text" class="login-input"></input>
+    </div>
+
+    <div class="login-label-submit">
+          
+      <a class="registration-link" href="/registration">Haven't registered? Click here to signup !</a>
+      <input type="submit" class="login-submit"></input>
+
+    </div>
+  </div>
+  
+</form>
+
+      
+<%- include("partials/footer"); -%>

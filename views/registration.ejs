@@ -1,0 +1,100 @@
+<%- include("partials/header"); -%>
+
+<div class="column-2">
+  <form method="POST" action="/registration">
+    <div class="registration">
+      <h1 class="registration-header">Register to the Site</h1>
+
+      <div class="registration-name">
+        <p>Enter Name:</p>
+        <input name="name" type="text" class="registration-input" />
+      </div>
+
+      <div class="registration-email">
+        <p>Enter Email:</p>
+        <input name="email" type="text" class="registration-input" />
+      </div>
+
+      <div class="registration-username">
+        <p>Enter Username:</p>
+        <input name="username" type="text" class="registration-input" />
+      </div>
+
+      <div class="registration-password">
+        <p>Enter Password:</p>
+        <input name="password" type="password" class="registration-input" />
+      </div>
+
+      <div class="registration-age">
+        <p>Enter Your Age:</p>
+        <input name="number" type="number" class="registration-input" />
+      </div>
+
+      <div class="registration-number">
+        <p>Enter Your Phone Number:</p>
+        <input name="number" type="number" class="registration-input" />
+      </div>
+
+      <div class="registration-state">
+        <p>Select Your State:</p>
+        <select name="state" class="registration-input">
+          <option value="andhra pradesh">Andhra Pradesh</option>
+          <option value="arunachal pradesh">Arunachal Pradesh</option>
+          <option value="assam">Assam</option>
+          <option value="bihar">Bihar</option>
+          <option value="chhattisgarh">Chhattisgarh</option>
+          <option value="goa">Goa</option>
+          <option value="gujarat">Gujarat</option>
+          <option value="haryana">Haryana</option>
+          <option value="himachal pradesh">Himachal Pradesh</option>
+          <option value="jammu and kashmir">Jammu and Kashmir</option>
+          <option value="jharkhand">Jharkhand</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerala">Kerala</option>
+          <option value="madhya pradesh">Madhya Pradesh</option>
+          <option value="maharashtra">Maharashtra</option>
+          <option value="manipur">Manipur</option>
+          <option value="meghalaya">Meghalaya</option>
+          <option value="mizoram">Mizoram</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="odisha">Odisha</option>
+          <option value="punjab">Punjab</option>
+          <option value="rajasthan">Rajasthan</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="tamil nadu">Tamil Nadu</option>
+          <option value="telangana">Telangana</option>
+          <option value="tripura">Tripura</option>
+          <option value="uttarakhand">Uttarakhand</option>
+          <option value="uttar pradesh">Uttar Pradesh</option>
+          <option value="west bengal">West Bengal</option>
+          <option value="andaman and nicobar islands">
+            Andaman and Nicobar Islands
+          </option>
+          <option value="chandigarh">Chandigarh</option>
+          <option value="dadra and nagar haveli">Dadra and Nagar Haveli</option>
+          <option value="daman and diu">Daman and Diu</option>
+          <option value="delhi">Delhi</option>
+          <option value="lakshadweep">Lakshadweep</option>
+          <option value="puducherry">Puducherry</option>
+        </select>
+      </div>
+
+      <div class="registration-address">
+        <p>Enter Address:</p>
+        <textarea
+          name="address"
+          class="registration-input"
+          rows="4"
+          cols="30"
+        ></textarea>
+      </div>
+
+      <div class="registration-submit">
+        <input type="submit" class="registration-submit" />
+      </div>
+    </div>
+  </form>
+
+  <img src="messaging.webp" class="message-image" />
+</div>
+<%- include("partials/footer"); -%>
